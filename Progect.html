@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <meta
+      name="keywords"
+      content="html, 
+    программирование, разметка html"
+    />
+    <meta name="description" content="Это мой первый сайт" />
+    <link rel="stylesheet" href="Style.css" />
+    <title>Резюме</title>
+  </head>
+  <body class="conteiner">
+    <div class="box">
+      <div id="foto">
+        <img
+          src="Я.jpg"
+          alt="Нет пути к файлу"
+          width="200"
+          class="fotoInside"
+        />
+      </div>
+
+      <div class="allText">
+        <div class="card name">
+          <h1>Макс</h1>
+
+          <p class="underline">
+            Я начинающий программист <strong>backand</strong>, планирую сначала
+            добратся до языка <strong>JS</strong> и <em>найти работу</em> в этой
+            сфере.
+          </p>
+
+          <div class="web">
+            <h3>Мои соц сети:</h3>
+
+            <a href="https://vk.com/id320833197" target="_blank" class="btn"
+              >VK</a
+            >
+            |
+            <a href="https://t.me/Maksim_babintsev" target="_blank" class="btn"
+              >Telegram</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card hobbi">
+      <h2>Мои хобби:</h2>
+      <ol>
+        <li>Программирование микроконтроллеров</li>
+        <li>Спорт</li>
+        <li>Собираю кубик рубика</li>
+      </ol>
+    </div>
+
+    <div class="card job">
+      <h2>Опыт работы:</h2>
+      <table class="table">
+        <thead>
+          <th>Название</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>StudioGum</td>
+            <td>Backend</td>
+            <td>2015-2016</td>
+          </tr>
+          <tr>
+            <td>Ozon</td>
+            <td>Backend</td>
+            <td>2016-2020</td>
+          </tr>
+          <tr>
+            <td>Windows</td>
+            <td>Backend</td>
+            <td>2020-2021</td>
+          </tr>
+          <tr>
+            <td>Яндекс</td>
+            <td>Backend</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Windows</td>
+            <td>Backend</td>
+            <td>2022-сейчас</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card connect">
+      <h2>Связатся со мной:</h2>
+
+      <form>
+        <div class="box_name">
+          <label for="text">Ваше имя:</label>
+          <input type="text" id="text" class="input_name" placeholder="Введите свое имя"/>
+        </div>
+
+        <div class="box_email">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" class="input_email" placeholder="Введите email"/>
+        </div>
+
+        <div>
+          <label for="message">Ваше сообщение:</label>
+          <br />
+          <textarea name="message" id="message" class="input-massage" placeholder="Введите сообщение"></textarea>
+        </div>
+
+        <button type="submit" class="button" >Отправить форму</button>
+      </form>
+    </div>
+  </body>
+</html>

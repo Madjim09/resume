@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font: normal 16px 'Roboto';
+    color: white;
+    background-color: #45464f;
+}
+
+.conteiner {
+    width: 750px;
+    margin: auto;
+}
+
+.underline strong {
+    text-decoration: underline;
+}
+
+
+#foto {
+    margin-bottom: 20px;
+}
+
+.fotoInside {
+    box-shadow: 8px 8px 14px 10px rgba(102, 78, 51, 0.5);
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    width: auto;
+    margin-top: 50px;
+}
+
+.web {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.card{
+    padding: 1px 20px 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.name {
+    background: rgba(0, 255, 0, 0.2);
+    box-shadow: 8px 8px 14px 10px rgba(77, 126, 77, 0.25);
+    margin-left: 20px;
+}
+
+.hobbi {
+    background: rgba(245, 160, 3, 0.2);
+    box-shadow: 8px 8px 14px 10px rgba(114, 94, 56, 0.25);
+
+}
+
+.job {
+    background: rgba(255, 38, 0, 0.2);
+    box-shadow: 8px 8px 14px 10px rgba(128, 67, 56, 0.25);
+
+}
+
+.connect {
+    background: rgba(154, 2, 255, 0.25);
+    box-shadow: 8px 8px 14px 10px rgba(101, 54, 133, 0.25);
+}
+
+.connect button {
+    background: rgb(75, 122, 145);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.input_name, .input_email {
+    background: none;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(181, 123, 219);
+}
+
+.connect textarea {
+    background: rgb(181, 123, 219);
+    border: none;
+    border-radius: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.box_name, .box_email {
+    padding-bottom: 10px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    color:#fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: rgb(155, 152, 152);
+}
+
+.btn:visited {
+    color: rgb(155, 152, 152);
+}
+
+.btn:active {
+    color: rgb(153, 0, 255,);
+}
+
+.table thead th, tbody tr td {
+    padding-right: 40px;
+}
+
+.table thead th:nth-child(3), tbody tr td:nth-child(3) {
+    padding: 0;
+}
+
+@media (max-width: 700px) {
+    #foto {
+        margin: 30px 200px 25px 200px;
+    }
+
+    .box {
+        display: inline;
+    }
+
+    .conteiner {
+        max-width: 600px;
+        /* margin: 40px 20px 40px 20px; */
+    }
+
+    .name {
+        margin-bottom: 30px;
+        padding: 1px 30px 10px 30px; 
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .web {
+        padding-top: 0;
+    }
+}
